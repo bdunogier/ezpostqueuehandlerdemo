@@ -15,6 +15,9 @@ Enable the extension in settings/override/site.ini.append.php::
     [ExtensionSettings]
     ActiveExtensions=ezpostqueuehandlerdemo
 
+*Important note:* if you are running eZ Publish Enterprise 4.5 or community 4.2011, you need this patch to get the
+hooks feature to work: https://github.com/ezsystems/ezpublish/commit/8bb5850.
+
 See it in action
 ================
 Enable asynchronous publishing in eZ Publish in a content.ini override::
